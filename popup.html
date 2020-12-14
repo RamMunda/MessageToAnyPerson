@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./popup.js"></script>
+    <style>
+        .info{
+           display: inline-block;
+           box-sizing: border-box;
+           width: 300px;
+           font-size: 15px;
+           margin: 20px;
+        }
+        .input_data{
+           display: inline-block;
+           margin: 20px;
+        }
+        label{
+           display: inline-block;
+           margin-right: 20px;
+           margin-bottom: 17px;
+           width: 80px;
+        }
+        button{
+            margin: 15px 0px;
+    width: 139px;
+    padding: 5px;
+    transform: translateX(88px);
+        }
+    </style>
+</head>
+<body>
+    <div id="contentSection">
+    <div class="info">
+     1. Put Group name in which you want to send message<br>
+     2. write message in the message field ....... 
+    </div>
+    <div class="input_data">
+        <label>Group name</label>
+        <input class="group_name" type="text" type="number" placeholder="Group Name"/>
+        <label>Message</label>
+        <input class="message" type="text" name="message" placeholder="Message" />
+        <button id="button1">Send</button>
+    </div>
+    </div>
+</body>
+</html>
